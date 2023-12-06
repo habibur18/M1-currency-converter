@@ -52,6 +52,7 @@ getBtn.addEventListener("click", (e) => {
   getExchangeRate();
 });
 
+// event listener for exchange icon
 exIcon.addEventListener("click", () => {
   [fromCur.value, toCur.value] = [toCur.value, fromCur.value];
   [fromCur, toCur].forEach((select) => {
